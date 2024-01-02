@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" name="Chrome(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="testclass1.VerificationOfActitime">
+        <methods>
+          <include name="ToVerifyOpenReports"/>
+          <include name="createPOMObjects"/>
+          <include name="clearObject"/>
+          <include name="ToverifyOpenTask"/>
+          <include name="launchBrowser"/>
+          <include name="ClosedBrowser"/>
+          <include name="LogoutFromApplication"/>
+          <include name="LoginToApplication"/>
+        </methods>
+      </class> <!-- testclass1.VerificationOfActitime -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
